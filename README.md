@@ -1,12 +1,11 @@
 # Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -16,9 +15,9 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
+
+For this project, I built a responsive card for perfume.
 
 ### The challenge
 
@@ -27,24 +26,18 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
-### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL:https://github.com/TdevDev/product-preview-card-component-main
+- Live Site URL: https://zesty-granita-65fd75.netlify.app/
 
 ## My process
+
+Step 1: Look at the design as a whole
+Step 2: Add HTML and classes based on the design
+Step 3: Add Josh Comeau's CSS reset to style.css
+Step 4: Add CSS variables to style.css (colors, typography, font-weights)
+Step 5: Style the card
 
 ### Built with
 
@@ -53,59 +46,41 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+My initial approach to this design was using bootstrap 5. But the more I used bootstrap, the more I was confused. I find it quite easy to find bootstrap components, add them, and manipulate them to fit my styles. The problems with bootstrap for me is that, it becomes very difficult for me to read and organize as I just see a huge div soup. With this initial approach, I was able to code around 60% of the project. I then started looking for solutions on the web to this project. I came across Kevin Powell's solution. I decided to code it along with him. I know this might not be the true way to go about the challenge, but I believe it was very necessary.
 
-To see how you can add code snippets, see below:
+It is true that there are still many things that I don't quite fully grasp, but his process got me thinking in a very professional and organized manner. I am very grateful for Kevin Powell's concise and informative teachings.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+I plan on recreating the card for some other concepts in order to hammer down the techniques that this project is responsible for. After all, learning the concepts requires being able to do it more than once for different scenarios.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+1. how to properly organize my CSS
+2. hidden property
+3. how to name my CSS classes
+4. how to deploy to github directly from VScode
+5. how to deploy a live version directly to netlify from github
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Items to be futher practiced:
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+1. css variables
+2. css class organization
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+Kevin Powell's solution: https://www.youtube.com/watch?v=B2WL6KkqhLQ
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+I recommend pausing and understanding. Then recreating it on your own with different styles.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - https://github.com/TdevDev
+- Frontend Mentor - [@TdevDev]
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Kevin Powell - https://www.youtube.com/@KevinPowell
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Josh Comeau's CSS reset - https://www.joshwcomeau.com/css/custom-css-reset/
